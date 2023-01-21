@@ -1,0 +1,224 @@
+
+*{
+ 
+  padding-bottom: 0;
+}
+body {
+  font-family: 'Wallpoet', cursive;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 70px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #3b3a3a;
+    display: block;
+    transition: 0.3s;
+    line-height: 55px;
+
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  span{
+    color:white;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+  
+.photos1{
+    margin-left: 710px;
+    margin-top: 80px;
+    position: relative;
+}
+
+img.photo1, img.photo2, img.photo3, img.photo4{
+    display: inline-block;
+    width: 270px;
+    margin-top: -25px;
+    left:0px;
+    
+}
+
+img.photo1{
+z-index: 1;
+
+}
+
+img.photo2{
+  z-index: 3;
+}
+
+.photos2{
+    margin-left: 710px;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.name p{
+    font-family: 'Wallpoet', cursive;
+    color: #f1f1f1;
+    margin-top: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    position: absolute;
+    left: 120px;
+    font-size: 70px;
+}
+
+.name h2{
+  color: #f1f1f1;
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    position: absolute;
+    left: 230px;
+    top: 310px;
+    font-family: 'Wallpoet', cursive;
+}
+
+a.btn{
+  text-decoration: none;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+  padding: 30px 40px;
+  border:1px solid white;
+  border-color: white;
+  margin-top: 350px;
+  position: absolute;
+  margin-left: 290px;
+  font-family: 'Wallpoet', cursive;
+  cursor: pointer;
+}
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Wallpoet', cursive;
+  
+}
+.footer-distributed {
+  background-color:#060606;;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+  font-family: 'Wallpoet', cursive;
+  
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}

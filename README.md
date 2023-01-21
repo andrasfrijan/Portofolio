@@ -1,0 +1,3 @@
+#My portofolio
+This is my portofolio that showcases the work i did recently in the Influencer, Designer, Hacker and Project.
+When you first open it, you can see the home page. Then, you can either use the menu to see my projects, or you can click the My projects button. Once you land on that page, you can choose three domains to choose from. In each of them you will find my projects, you can see after clicking the "See assignment" button. For my progamming projects, there is also a page describing each of them, and from there you can see the actual assignment. There is also an about page, where you can read information about me, and see mai contact details.

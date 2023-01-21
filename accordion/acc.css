@@ -1,0 +1,47 @@
+.h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: black;
+    position: relative;
+
+}
+
+.accordion {
+    background-color: rgb(240, 53, 131);
+    color: rgb(247, 244, 244);
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid white;
+    text-align: center;
+    outline: none;
+    font-size: 25px;
+    transition: 0.8s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(231, 109, 170);
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: rgb(252, 206, 238);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-size: larger;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(247, 171, 215);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: center;
+  }

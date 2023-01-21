@@ -1,0 +1,377 @@
+
+
+    
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 70px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 35px;
+      color: #3b3a3a;
+      display: block;
+      transition: 0.3s;
+      line-height: 55px;
+  
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .menu{
+      font-size: 30px;
+      cursor: pointer;
+      /* display: inherit; */
+      /* top: 30px; */
+      /* z-index: -3; */
+      color: white;
+      position: fixed;
+      top: 10px;
+      left: 20px;
+    }
+    footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Wallpoet', cursive;
+        top: 1000px;
+        
+      }
+      .footer-distributed {
+        background-color:#060606;;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: normal 16px sans-serif;
+        padding: 40px 50px;
+        font-family: 'Wallpoet', cursive;
+        
+      }
+      
+      .footer-distributed .footer-left p {
+        color: #8f9296;
+        font-size: 14px;
+        margin: 0;
+      }
+      /* Footer links */
+      
+      .footer-distributed p.footer-links {
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffffff;
+        margin: 0 0 10px;
+        padding: 0;
+        transition: ease .25s;
+      }
+      
+      .footer-distributed p.footer-links a {
+        display: inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color: inherit;
+        transition: ease .25s;
+      }
+      
+      .footer-distributed .footer-links a:before {
+        content: "·";
+        font-size: 20px;
+        left: 0;
+        color: #fff;
+        display: inline-block;
+        padding-right: 5px;
+      }
+      
+      .footer-distributed .footer-links .link-1:before {
+        content: none;
+      }
+      
+      .footer-distributed .footer-right {
+        float: right;
+        margin-top: 6px;
+        max-width: 180px;
+      }
+      
+      .footer-distributed .footer-right a {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        background-color: #33383b;
+        border-radius: 2px;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+        margin-left: 3px;
+        transition:all .25s;
+      }
+      
+      .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+      
+      .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+      
+      /* Media Queries */
+      
+      @media (max-width: 600px) {
+        .footer-distributed .footer-left, .footer-distributed .footer-right {
+          text-align: center;
+        }
+        .footer-distributed .footer-right {
+          float: none;
+          margin: 0 auto 20px;
+        }
+        .footer-distributed .footer-left p.footer-links {
+          line-height: 1.8;
+        }
+      }
+
+      .info1{
+        display: inline-block;
+        color: #ffffff;
+        position: absolute;
+        margin-left: 30px;
+        font-size: x-large;
+        width: max-content;
+        margin-top: 50px;
+        left: 60px;
+    
+      }
+
+      p{
+        font-size: smaller;
+        line-height: 50px;
+      }
+      img{
+    width: 400px;
+    height: 200px;
+    top: 180px;
+    left: 840px;
+    position: absolute;
+    } 
+
+    .info2 .code{
+      width: 400px;
+    height: 200px;
+    top: 450px;
+    left: 840px;
+    position: absolute;
+    }
+
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #000000;
+        font-family: 'Wallpoet', cursive;
+
+      }
+
+      .container{
+        position: absolute;
+        width: 900px;
+        display: flex;
+        justify-content:space-around ;
+        padding-bottom: 20px;
+        margin-top: 1450px;
+      }
+
+      .container .card{
+        position: relative;
+        width: 250px;
+        background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        border-radius: 4px;
+        text-align: center;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .container .card:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(0,0,0,.5);
+    }
+
+    .container .card:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -50%;
+        width: 100%;
+        height: 100%;
+        background: rgba(255,255,255,.03);
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+    background: #222;
+    z-index: 1000;
+    }
+
+    .percent .number{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .percent .number h2{
+        color: #777;
+        font-weight: 700;
+        font-size: 40px;
+        transition: 0.5s;
+
+    }
+
+    .card:hover .percent .number h2{
+        color: #fff;
+        font-size: 60px;
+
+    }
+
+    .percent .number h2 span{
+        font-size: 24px;
+        color: #777;
+
+    }
+
+    .card:hover .percent .number h2 span{
+        color: #fff;
+    }
+
+    .text{
+        position: relative;
+        color: #777;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: 0.5s;
+    }
+
+    .card:hover .text{
+        color: #fff;
+    }
+
+    svg{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        z-index: 1000;
+    }
+
+    svg circle{
+        width: 100%;
+        height: 100%;
+        fill: none;
+        stroke: #191919;
+        stroke-width: 10;
+        stroke-linecap: round;
+        transform: translate(5px,5px);
+    }
+    svg circle:nth-child(2){
+        stroke-dasharray: 440;
+        stroke-dashoffset: 440;  
+     }
+
+    .card:nth-child(1) svg circle:nth-child(2){
+        stroke-dashoffset: calc(440 - (440 * 50) / 100);
+        stroke: #00ff43;
+
+    }
+    .card:nth-child(2) svg circle:nth-child(2){
+        stroke-dashoffset: calc(440 - (440 * 35) / 100);
+        stroke: #00a1ff;
+
+    }
+    .card:nth-child(3) svg circle:nth-child(2){
+        stroke-dashoffset: calc(440 - (440 * 15) / 100);
+        stroke: #ff04f7;
+        
+    }
+
+    .progress {
+    background-color: #d8d8d8;
+    border-radius: 20px;
+    position: absolute;
+    margin: 50px 0;
+    height: 35px;
+    width: 580px;
+    top: -10px;
+    margin-left: 730px;
+    }
+    
+    .progress-done {
+      background: linear-gradient(to left, #F2709C, #FF9472);
+      box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+      border-radius: 20px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 0;
+      opacity: 0;
+      transition: 1s ease 0.3s;
+    }
+    h4{
+      color: white;
+      position: absolute;
+      top: 29px;
+      left: 580px;
+    }
+
+    .btn{
+      text-decoration: none;
+  background-color: black;
+  color: #fff;
+  padding: 30px 40px;
+  border:1px solid white;
+  border-color: white;
+  margin-top: 900px;
+  position: absolute;
+  margin-left: 290px;
+  font-family: 'Wallpoet', cursive;
+  cursor: pointer;
+  right: 565px;
+  text-transform: uppercase;
+  font-size: large;
+    }

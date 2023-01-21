@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(#63818C, #BFCED6) ;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+.ghost {
+  top: 245px;
+  position: absolute;
+  z-index: 1;
+  animation: ghost 10s linear infinite;
+}
+
+
+@keyframes ghost {
+  100% {
+    transform: translateX(-1050px);
+
+  }
+
+}
+
+.piano {
+  
+  margin: 10% auto;
+}
+
+.whiteKey{
+  position: relative;
+  width: 100px;
+  height: 330px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: -3px -3px 6px rgba(255, 255, 255, 0.9), 3px 3px 5px rgb(0, 0, 0, 0.7);
+  margin-left: 4px;
+  outline: none;
+  color: #63818C;
+}
+
+.whiteKey:active{
+  box-shadow: -3px -3px 6px rgba(255, 255, 255, 0.9), 3px 1px 0px rgb(0, 0, 0, 0.1);
+}
+
+.blackKey{
+  color: #63818C;
+  position: absolute;
+  width: 40px;
+  height: 200px;
+  margin: 0 -20px;
+  background-image: linear-gradient(black, #303030);
+  box-shadow: -3px -3px 6px rgba(255, 255, 255, 0.9), 3px 3px 5px rgb(0, 0, 0, 0.7);
+  border-radius: 6px;
+  z-index: 1;
+  outline: none;
+}
+
+.blackKey:active{
+  box-shadow: -3px -3px 6px rgba(255, 255, 255, 0.9), 3px 1px 0px rgb(0, 0, 0, 0.1);
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
